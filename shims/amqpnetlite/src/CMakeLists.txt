@@ -157,6 +157,6 @@ if (BUILD_AMQPNETLITE)
 
   # define tests
   define_lite_test (amqp_types_test)
-  #define_lite_test (amqp_large_content_test)
+  define_lite_test (amqp_large_content_test)
 
 endif ()
